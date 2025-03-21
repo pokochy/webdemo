@@ -34,7 +34,6 @@ ul {
 
 .navbar .container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 100%;
@@ -42,7 +41,6 @@ ul {
 
 .navbar ul {
   display: flex;
-  flex-direction: row;
 }
 
 .navbar ul li {
@@ -68,12 +66,10 @@ ul {
 
 button {
   padding: 5px 10px;
-  margin: 5px 10px;
+  margin: 5px;
   font-size: large;
   font-weight: bold;
   background-color: lightgrey;
-  /* border-radius: 10px;
-    border-width: 0px; */
 }
 
 button:hover {
